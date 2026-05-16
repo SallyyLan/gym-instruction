@@ -9,7 +9,7 @@ export default function SketchfabEmbed({ modelId, title }: Props) {
   const [loaded, setLoaded] = useState(false)
 
   return (
-    <div className="relative w-full rounded-lg overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+    <div className="relative w-full rounded-lg overflow-hidden bg-white" style={{ paddingBottom: '56.25%' }}>
       {!loaded && (
         <div
           data-testid="sketchfab-skeleton"
@@ -18,9 +18,10 @@ export default function SketchfabEmbed({ modelId, title }: Props) {
       )}
       <iframe
         title={title}
-        src={`https://sketchfab.com/models/${modelId}/embed?autostart=0&ui_theme=light&preload=1`}
+        src={`https://sketchfab.com/models/${modelId}/embed?autospin=1&autostart=1&transparent=1&ui_infos=0&ui_watermark_link=0&ui_watermark=0`}
         className="absolute inset-0 w-full h-full border-0"
         allow="autoplay; fullscreen; xr-spatial-tracking"
+        allowFullScreen
         onLoad={() => setLoaded(true)}
       />
     </div>
