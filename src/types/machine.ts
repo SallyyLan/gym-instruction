@@ -9,7 +9,6 @@ export interface Machine {
   description: LocalizedString
   thumbnail: string
   sketchfabId: string
-  callout: string
   steps: LocalizedString[]
   mistakes: LocalizedString[]
   warning: LocalizedString

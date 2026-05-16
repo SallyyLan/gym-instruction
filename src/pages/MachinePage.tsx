@@ -4,7 +4,6 @@ import machines from '../data/machines.json'
 import type { Machine } from '../types/machine'
 import LanguageToggle from '../components/LanguageToggle'
 import SketchfabEmbed from '../components/SketchfabEmbed'
-import CalloutDiagram from '../components/CalloutDiagram'
 import StepList from '../components/StepList'
 import MistakesList from '../components/MistakesList'
 import WarningBox from '../components/WarningBox'
@@ -40,8 +39,6 @@ export default function MachinePage() {
 
       <main className="max-w-lg mx-auto px-4 py-6 space-y-6">
         <SketchfabEmbed modelId={machine.sketchfabId} title={machine.name[lang]} />
-
-        <CalloutDiagram src={machine.callout} alt={`${machine.name[lang]} diagram`} />
 
         <section className="space-y-3">
           <h2 className="font-semibold text-gray-900">{t('steps')}</h2>

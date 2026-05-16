@@ -11,7 +11,6 @@
     },
     "thumbnail": "/images/pivot-leg-press-thumb.jpg",
     "sketchfabId": "bc1dd40071da4bbcb16947da6bc2b6c4",
-    "callout": "/images/pivot-leg-press-callout.jpg",
     "steps": [
       {
         "zh": "調整座椅位置，使膝蓋彎曲時約為 90 度",
@@ -61,7 +60,6 @@
     },
     "thumbnail": "/images/assisted-pull-ups-thumb.jpg",
     "sketchfabId": "43592d585f694f9aae975b5ba2435500",
-    "callout": "/images/assisted-pull-ups-callout.jpg",
     "steps": [
       {
         "zh": "選擇輔助重量：數字越大代表輔助越多、越輕鬆，初學者建議從體重的 50–70% 開始",
@@ -111,7 +109,6 @@
     },
     "thumbnail": "/images/bicep-curl-machine-thumb.jpg",
     "sketchfabId": "27f765c00f984c85946cefdeeaa9d872",
-    "callout": "/images/bicep-curl-machine-callout.jpg",
     "steps": [
       {
         "zh": "調整座椅高度，使手肘可以自然貼放在手臂墊上",
@@ -161,7 +158,6 @@
     },
     "thumbnail": "/images/cable-loaded-abductors-thumb.jpg",
     "sketchfabId": "ce660cb48c45472dbd9a8f5b6122a2ac",
-    "callout": "/images/cable-loaded-abductors-callout.jpg",
     "steps": [
       {
         "zh": "調整座椅高度並選擇適合的重量，初學者建議從輕重量開始",
@@ -211,7 +207,6 @@
     },
     "thumbnail": "/images/leg-extension-machine-thumb.jpg",
     "sketchfabId": "57d85a08ee924d9ba0188b4e7afa8928",
-    "callout": "/images/leg-extension-machine-callout.jpg",
     "steps": [
       {
         "zh": "調整座椅使膝蓋對齊機器的旋轉軸心點",

@@ -11,7 +11,6 @@ const mock: Machine = {
   description: { zh: '訓練背部', en: 'Trains back' },
   thumbnail: '/images/thumb.jpg',
   sketchfabId: 'abc123',
-  callout: '/images/callout.jpg',
   steps: [{ zh: '步驟一', en: 'Step one' }],
   mistakes: [{ zh: '錯誤一', en: 'Mistake one' }],
   warning: { zh: '注意', en: 'Warning' },
