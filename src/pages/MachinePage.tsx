@@ -3,9 +3,7 @@ import { useTranslation } from 'react-i18next'
 import machines from '../data/machines.json'
 import type { Machine } from '../types/machine'
 import LanguageToggle from '../components/LanguageToggle'
-import MuscleTags from '../components/MuscleTags'
 import SketchfabEmbed from '../components/SketchfabEmbed'
-import MotionDemo from '../components/MotionDemo'
 import CalloutDiagram from '../components/CalloutDiagram'
 import StepList from '../components/StepList'
 import MistakesList from '../components/MistakesList'
@@ -41,11 +39,7 @@ export default function MachinePage() {
       </header>
 
       <main className="max-w-lg mx-auto px-4 py-6 space-y-6">
-        <MuscleTags tags={machine.muscles.map((m) => m[lang])} />
-
         <SketchfabEmbed modelId={machine.sketchfabId} title={machine.name[lang]} />
-
-        <MotionDemo src={machine.gif} alt={machine.name[lang]} />
 
         <CalloutDiagram src={machine.callout} alt={`${machine.name[lang]} diagram`} />
 

@@ -9,8 +9,8 @@ describe('machines.json', () => {
 
   it('each machine has all required fields', () => {
     const required: (keyof Machine)[] = [
-      'id', 'name', 'description', 'thumbnail', 'muscles',
-      'sketchfabId', 'gif', 'callout', 'steps', 'mistakes', 'warning',
+      'id', 'name', 'description', 'thumbnail',
+      'sketchfabId', 'callout', 'steps', 'mistakes', 'warning',
     ]
     machines.forEach((m: Machine) => {
       required.forEach((field) => {

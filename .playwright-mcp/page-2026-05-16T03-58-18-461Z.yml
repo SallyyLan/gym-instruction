@@ -1,0 +1,423 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - button "navigation" [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: 
+      - link "Go to the mainpage" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - text: ▼ ▼  
+      - generic [ref=e24]:
+        - link "Search" [ref=e26] [cursor=pointer]:
+          - /url: /search
+          - generic [ref=e27]: 
+        - text: 
+  - navigation [ref=e29]:
+    - list [ref=e30]:
+      - listitem [ref=e31]:
+        - list [ref=e32]:
+          - listitem [ref=e33]:
+            - link "Login" [ref=e34] [cursor=pointer]:
+              - /url: /login
+            - link "Sign up" [ref=e35] [cursor=pointer]:
+              - /url: /signup
+      - listitem [ref=e36]:
+        - link "Home" [ref=e37] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - heading "Explore" [level=3] [ref=e41]
+            - text: ▼
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link " All categories" [ref=e44] [cursor=pointer]:
+                - /url: /categories
+                - generic [ref=e45]: 
+                - text: All categories
+            - listitem [ref=e46]:
+              - link " Popular" [ref=e47] [cursor=pointer]:
+                - /url: /3d-models/popular
+                - generic [ref=e48]: 
+                - text: Popular
+            - listitem [ref=e49]:
+              - link " Staff picks" [ref=e50] [cursor=pointer]:
+                - /url: /3d-models/staffpicks
+                - generic [ref=e51]: 
+                - text: Staff picks
+            - listitem [ref=e52]:
+              - link " Downloadable" [ref=e53] [cursor=pointer]:
+                - /url: /3d-models?date=week&features=downloadable&sort_by=-likeCount
+                - generic [ref=e54]: 
+                - text: Downloadable
+            - listitem [ref=e55]:
+              - link " Collections" [ref=e56] [cursor=pointer]:
+                - /url: /collections/popular
+                - generic [ref=e57]: 
+                - text: Collections
+            - listitem [ref=e58]:
+              - link "Human Created" [ref=e59] [cursor=pointer]:
+                - /url: /3d-models?is_ai=0
+                - img [ref=e60]
+                - generic [ref=e71]: Human Created
+            - listitem [ref=e72]:
+              - link " AI Generated" [ref=e73] [cursor=pointer]:
+                - /url: /3d-models?is_ai=1
+                - generic [ref=e74]: 
+                - text: AI Generated
+            - listitem [ref=e75]
+            - listitem [ref=e76]:
+              - link "Blog" [ref=e77] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/community
+            - listitem [ref=e78]:
+              - link "Community members" [ref=e79] [cursor=pointer]:
+                - /url: /members
+      - listitem [ref=e80]:
+        - heading "Buy 3D models" [level=3] [ref=e82]:
+          - link "Buy 3D models" [ref=e83] [cursor=pointer]:
+            - /url: /store
+      - listitem [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - heading "For business" [level=3] [ref=e87]
+            - text: ▼
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - link "Sketchfab for Teams" [ref=e90] [cursor=pointer]:
+                - /url: /3d-asset-management
+            - listitem [ref=e91]:
+              - link "Augmented Reality" [ref=e92] [cursor=pointer]:
+                - /url: /augmented-reality
+            - listitem [ref=e93]:
+              - link "3D Viewer" [ref=e94] [cursor=pointer]:
+                - /url: /3d-viewer
+            - listitem [ref=e95]:
+              - link "3D eCommerce" [ref=e96] [cursor=pointer]:
+                - /url: /3d-ecommerce
+            - listitem [ref=e97]:
+              - link "3D Configurators" [ref=e98] [cursor=pointer]:
+                - /url: /3d-configurators
+            - listitem [ref=e99]:
+              - link "Find a Partner" [ref=e100] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/enterprise/partners-directory
+            - listitem [ref=e101]:
+              - link "Pricing" [ref=e102] [cursor=pointer]:
+                - /url: /plans
+            - listitem [ref=e103]:
+              - link "Customer Stories" [ref=e104] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/enterprise
+  - main [ref=e105]:
+    - generic [ref=e109]:
+      - iframe [active] [ref=e111]:
+        - main "sketchfab-viewer" [ref=f16e2]:
+          - generic:
+            - generic:
+              - heading "Gym Lat Pulldown" [level=1]:
+                - link "Gym Lat Pulldown" [ref=f16e3] [cursor=pointer]:
+                  - /url: https://sketchfab.com/3d-models/gym-lat-pulldown-50fb1df222e6468f9d7ada63c45d673d
+          - text: 
+          - generic [ref=f16e4]:
+            - generic "3D view of Gym Lat Pulldown" [ref=f16e5]
+            - generic:
+              - generic:
+                - img "Loading 3D Model"
+                - generic:
+                  - paragraph: Loading 3D model
+            - generic:
+              - generic:
+                - generic "close": 
+                - paragraph: Model is too heavy for your device and can not be rendered properly
+              - text:  
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Model Inspector
+              - generic:
+                - generic:
+                  - generic:
+                    - generic "Play Animation": 
+                    - text: 
+                    - generic: 00:00.00
+                    - generic:
+                      - paragraph
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - radio ""
+                              - generic:
+                                - generic: 
+                              - text: Repeat one
+                            - generic:
+                              - radio ""
+                              - generic:
+                                - generic: 
+                              - text: Repeat all
+                            - generic:
+                              - radio ""
+                              - generic:
+                                - generic: 
+                              - text: No repeat
+                          - generic:
+                            - generic:
+                              - radio "x0.1"
+                              - generic: x0.1
+                              - text: Speed x0.1
+                            - generic:
+                              - radio "x0.5"
+                              - generic: x0.5
+                              - text: Speed x0.5
+                            - generic:
+                              - radio "x1"
+                              - generic: x1
+                              - text: Speed x1
+                            - generic:
+                              - radio "x2"
+                              - generic: x2
+                              - text: Speed x2
+                        - list
+                - text:  
+                - generic:
+                  - generic [ref=f16e6] [cursor=pointer]:
+                    - generic: 
+                    - text: Help
+                  - text: 
+                  - generic [ref=f16e7] [cursor=pointer]:
+                    - generic: 
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Navigation
+                            - paragraph: Orbit
+                    - text: Settings
+                  - generic [ref=f16e8] [cursor=pointer]:
+                    - generic: 
+                    - text: Model Inspector (i)
+                  - generic [ref=f16e9] [cursor=pointer]:
+                    - generic: 
+                    - text: View in VR
+                  - text:  Theatre Mode
+                  - generic [ref=f16e10] [cursor=pointer]:
+                    - generic: 
+                    - text: Fullscreen (f)
+              - generic:
+                - generic:
+                  - generic:
+                    - text: click & hold
+                    - text: to rotate
+          - text:  Fullscreen (f)
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - heading "Gym Lat Pulldown 3D Model" [level=1] [ref=e115]:
+            - generic [ref=e117]: Gym Lat Pulldown
+            - generic [ref=e118]: 3D Model
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - link "Avatar of neilken" [ref=e121] [cursor=pointer]:
+                - /url: /neilken
+                - img "Avatar of neilken" [ref=e125]
+              - generic [ref=e126]:
+                - link "neilken" [ref=e129] [cursor=pointer]:
+                  - /url: /neilken
+                  - generic "neilken" [ref=e131]
+                - button "Follow" [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134]: Follow
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - generic [ref=e137]: 
+                - generic [ref=e138]: "240"
+                - generic: 240 Downloads
+              - generic [ref=e139]:
+                - generic [ref=e140]: 
+                - generic [ref=e141]: "990"
+                - generic: 990 Views
+              - generic [ref=e142] [cursor=pointer]:
+                - text: 
+                - generic [ref=e143]: "3"
+                - generic: Like
+          - generic [ref=e145]:
+            - button " Download 3D Model" [ref=e146] [cursor=pointer]:
+              - generic [ref=e147]: 
+              - generic [ref=e148]: Download 3D Model
+            - button "+ Add to" [ref=e149] [cursor=pointer]:
+              - generic [ref=e150]: +
+              - generic [ref=e151]: Add to
+            - button " Embed" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: 
+              - generic [ref=e154]: Embed
+            - button " Share" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: 
+              - generic [ref=e157]: Share
+            - link " Report" [ref=e158] [cursor=pointer]:
+              - /url: https://safety.epicgames.com/policies/reporting-misconduct/submit-report?product_id=sketchfab_content_report&content_type=sketchfab_model&content_url=https://sketchfab.com/3d-models/gym-lat-pulldown-50fb1df222e6468f9d7ada63c45d673d&content_id=50fb1df222e6468f9d7ada63c45d673d
+              - generic [ref=e159]: 
+              - generic [ref=e160]: Report
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - text: "Triangles:"
+              - generic [ref=e164]: 34.4k
+            - generic [ref=e165]: "Vertices: 17.7k"
+            - generic [ref=e166] [cursor=pointer]: More model information
+          - paragraph [ref=e169]: gym
+          - generic [ref=e170]:
+            - generic [ref=e172]:
+              - text: "License:"
+              - generic [ref=e173]:
+                - paragraph [ref=e174]:
+                  - text: CC Attribution
+                  - generic: Creative Commons Attribution
+                - link " Learn more" [ref=e176] [cursor=pointer]:
+                  - /url: http://creativecommons.org/licenses/by/4.0/
+                  - generic [ref=e177]: 
+                  - text: Learn more
+            - generic [ref=e178]:
+              - generic [ref=e179]: 
+              - generic [ref=e180]:
+                - text: Published
+                - time [ref=e181]: 11 years ago
+                - generic: Feb 8th 2015
+            - generic [ref=e182]:
+              - generic [ref=e183]: 
+              - list [ref=e184]:
+                - listitem [ref=e185]:
+                  - link "Electronics & gadgets 3D Models" [ref=e186] [cursor=pointer]:
+                    - /url: /categories/electronics-gadgets
+            - generic [ref=e187]:
+              - generic [ref=e188]: 
+              - generic [ref=e189]: No tags set.
+        - generic [ref=e192]:
+          - paragraph [ref=e193]: Comments
+          - generic [ref=e196]:
+            - generic [ref=e197]: You must log in to comment.
+            - button "Log in to comment" [ref=e199] [cursor=pointer]
+    - generic [ref=e234]:
+      - navigation "footer navigation" [ref=e235]:
+        - generic [ref=e236]:
+          - generic [ref=e237]: enterprise
+          - list [ref=e238]:
+            - listitem [ref=e239]:
+              - link "Enterprise Solutions" [ref=e240] [cursor=pointer]:
+                - /url: /enterprise
+            - listitem [ref=e241]:
+              - link "3D Configurators" [ref=e242] [cursor=pointer]:
+                - /url: /3d-configurators
+            - listitem [ref=e243]:
+              - link "3D eCommerce" [ref=e244] [cursor=pointer]:
+                - /url: /3d-ecommerce
+            - listitem [ref=e245]:
+              - link "3D Viewer" [ref=e246] [cursor=pointer]:
+                - /url: /3d-viewer
+            - listitem [ref=e247]:
+              - link "3D Advertising" [ref=e248] [cursor=pointer]:
+                - /url: /3d-advertising
+            - listitem [ref=e249]:
+              - link "Sketchfab for Teams" [ref=e250] [cursor=pointer]:
+                - /url: /3d-asset-management
+            - listitem [ref=e251]:
+              - link "Customer Stories" [ref=e252] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/enterprise
+            - listitem [ref=e253]:
+              - link "Pricing" [ref=e254] [cursor=pointer]:
+                - /url: /plans
+        - generic [ref=e255]:
+          - generic [ref=e256]: ecosystem
+          - list [ref=e257]:
+            - listitem [ref=e258]:
+              - link "Exporters" [ref=e259] [cursor=pointer]:
+                - /url: /exporters
+            - listitem [ref=e260]:
+              - link "Importers" [ref=e261] [cursor=pointer]:
+                - /url: /importers
+            - listitem [ref=e262]:
+              - link "Developers & API" [ref=e263] [cursor=pointer]:
+                - /url: /developers
+            - listitem [ref=e264]:
+              - link "Augmented Reality" [ref=e265] [cursor=pointer]:
+                - /url: /augmented-reality
+            - listitem [ref=e266]:
+              - link "Virtual Reality" [ref=e267] [cursor=pointer]:
+                - /url: /virtual-reality
+        - generic [ref=e268]:
+          - generic [ref=e269]: store
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "Buy 3D models" [ref=e272] [cursor=pointer]:
+                - /url: https://www.fab.com/category/3d-model
+            - listitem [ref=e273]:
+              - link "Become a Seller on Fab" [ref=e274] [cursor=pointer]:
+                - /url: https://www.fab.com/become-a-publisher
+            - listitem [ref=e275]:
+              - link "Free 3D Models" [ref=e276] [cursor=pointer]:
+                - /url: /features/free-3d-models
+        - generic [ref=e277]:
+          - generic [ref=e278]: community
+          - list [ref=e279]:
+            - listitem [ref=e280]:
+              - link "Explore" [ref=e281] [cursor=pointer]:
+                - /url: /3d-models/popular
+            - listitem [ref=e282]:
+              - link "Help Center" [ref=e283] [cursor=pointer]:
+                - /url: https://support.fab.com/s/?ProductOrigin=Sketchfab
+            - listitem [ref=e284]:
+              - link "Education" [ref=e285] [cursor=pointer]:
+                - /url: /education
+            - listitem [ref=e286]:
+              - link "Museums" [ref=e287] [cursor=pointer]:
+                - /url: /museums
+            - listitem [ref=e288]:
+              - link "Blog" [ref=e289] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/community
+            - listitem [ref=e290]:
+              - link "Sketchfab Masters" [ref=e291] [cursor=pointer]:
+                - /url: /masters
+        - generic [ref=e292]:
+          - generic [ref=e293]: about
+          - list [ref=e294]:
+            - listitem [ref=e295]:
+              - link "Company" [ref=e296] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e297]:
+              - link "Careers" [ref=e298] [cursor=pointer]:
+                - /url: https://www.epicgames.com/site/en-US/careers
+            - listitem [ref=e299]:
+              - link "Press Kit" [ref=e300] [cursor=pointer]:
+                - /url: /press
+            - listitem [ref=e301]:
+              - link "Features" [ref=e302] [cursor=pointer]:
+                - /url: /features
+            - listitem [ref=e303]:
+              - link "Contact us" [ref=e304] [cursor=pointer]:
+                - /url: /about#contact
+      - generic [ref=e305]:
+        - generic [ref=e306]:
+          - img [ref=e307]
+          - generic [ref=e312]: © 2026, Sketchfab, Inc. All rights reserved.
+        - generic [ref=e313]:
+          - link "Terms of use" [ref=e314] [cursor=pointer]:
+            - /url: /terms
+          - link "Privacy policy" [ref=e315] [cursor=pointer]:
+            - /url: /privacy
+          - link "Sitemap" [ref=e316] [cursor=pointer]:
+            - /url: /sitemap
+        - generic [ref=e317]:
+          - link "Follow us on Twitter" [ref=e318] [cursor=pointer]:
+            - /url: https://twitter.com/Sketchfab
+            - img [ref=e319]
+          - link "Follow us on Instagram" [ref=e323] [cursor=pointer]:
+            - /url: https://www.instagram.com/sketchfab
+            - img [ref=e324]
+          - link "Follow us on Facebook" [ref=e328] [cursor=pointer]:
+            - /url: https://www.facebook.com/Sketchfab
+            - img [ref=e329]
+          - link "Join us on Discord" [ref=e333] [cursor=pointer]:
+            - /url: https://discord.gg/VzNxX6D
+            - img [ref=e334]
+          - link "Follow us on Pinterest" [ref=e338] [cursor=pointer]:
+            - /url: https://www.pinterest.com/sketchfab
+            - img [ref=e339]
+          - link "Follow us on Linkedin" [ref=e343] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/sketchfab
+            - img [ref=e344]

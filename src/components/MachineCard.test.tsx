@@ -10,9 +10,7 @@ const mock: Machine = {
   name: { zh: '滑輪下拉機', en: 'Lat Pulldown Machine' },
   description: { zh: '訓練背部', en: 'Trains back' },
   thumbnail: '/images/thumb.jpg',
-  muscles: [{ zh: '背部', en: 'Back' }],
   sketchfabId: 'abc123',
-  gif: '/videos/test.gif',
   callout: '/images/callout.jpg',
   steps: [{ zh: '步驟一', en: 'Step one' }],
   mistakes: [{ zh: '錯誤一', en: 'Mistake one' }],
@@ -38,12 +36,4 @@ describe('MachineCard', () => {
     expect(document.querySelector('a')?.getAttribute('href')).toBe('/machine/lat-pulldown')
   })
 
-  it('renders the muscle tag', () => {
-    render(
-      <MemoryRouter>
-        <MachineCard machine={mock} />
-      </MemoryRouter>
-    )
-    expect(screen.getByText('背部')).toBeTruthy()
-  })
 })

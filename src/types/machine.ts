@@ -8,9 +8,7 @@ export interface Machine {
   name: LocalizedString
   description: LocalizedString
   thumbnail: string
-  muscles: LocalizedString[]
   sketchfabId: string
-  gif: string
   callout: string
   steps: LocalizedString[]
   mistakes: LocalizedString[]

@@ -1,27 +1,48 @@
 [
   {
     "id": "pivot-leg-press",
-    "name": { "zh": "旋轉腿部推蹬機", "en": "The Pivot Leg Press" },
-    "description": { "zh": "訓練大腿、臀部與小腿肌肉，提供自然旋轉弧度的推腿動作", "en": "Trains thighs, glutes and calves with a natural pivoting arc for safer leg pressing" },
+    "name": {
+      "zh": "旋轉腿部推蹬機",
+      "en": "The Pivot Leg Press"
+    },
+    "description": {
+      "zh": "訓練大腿、臀部與小腿肌肉，提供自然旋轉弧度的推腿動作",
+      "en": "Trains thighs, glutes and calves with a natural pivoting arc for safer leg pressing"
+    },
     "thumbnail": "/images/pivot-leg-press-thumb.jpg",
-    "muscles": [
-      { "zh": "大腿", "en": "Thighs" },
-      { "zh": "臀部", "en": "Glutes" },
-      { "zh": "小腿", "en": "Calves" }
-    ],
     "sketchfabId": "bc1dd40071da4bbcb16947da6bc2b6c4",
-    "gif": "/videos/pivot-leg-press.gif",
     "callout": "/images/pivot-leg-press-callout.jpg",
     "steps": [
-      { "zh": "調整座椅位置，使膝蓋彎曲時約為 90 度", "en": "Adjust the seat so your knees bend to about 90 degrees" },
-      { "zh": "雙腳平放在踏板上，與肩同寬，腳尖微微向外", "en": "Place feet flat on the platform shoulder-width apart, toes slightly outward" },
-      { "zh": "選擇重量：初學者建議從 20–40 公斤開始", "en": "Choose weight: beginners start with 20–40 kg" },
-      { "zh": "扳開安全把手，緩慢彎曲膝蓋讓踏板向身體靠近", "en": "Release the safety handle and slowly bend your knees to lower the platform" },
-      { "zh": "用腿部力量將踏板推回，過程中保持腳跟貼穩", "en": "Drive the platform back up with your legs, keeping heels flat throughout" }
+      {
+        "zh": "調整座椅位置，使膝蓋彎曲時約為 90 度",
+        "en": "Adjust the seat so your knees bend to about 90 degrees"
+      },
+      {
+        "zh": "雙腳平放在踏板上，與肩同寬，腳尖微微向外",
+        "en": "Place feet flat on the platform shoulder-width apart, toes slightly outward"
+      },
+      {
+        "zh": "選擇重量：初學者建議從 20–40 公斤開始",
+        "en": "Choose weight: beginners start with 20–40 kg"
+      },
+      {
+        "zh": "扳開安全把手，緩慢彎曲膝蓋讓踏板向身體靠近",
+        "en": "Release the safety handle and slowly bend your knees to lower the platform"
+      },
+      {
+        "zh": "用腿部力量將踏板推回，過程中保持腳跟貼穩",
+        "en": "Drive the platform back up with your legs, keeping heels flat throughout"
+      }
     ],
     "mistakes": [
-      { "zh": "不要讓膝蓋向內夾，保持與腳趾方向一致", "en": "Don't let knees cave inward — keep them aligned with your toes" },
-      { "zh": "不要在最高點鎖死膝蓋，保留微彎保護關節", "en": "Don't fully lock your knees at the top — keep a slight bend to protect your joints" }
+      {
+        "zh": "不要讓膝蓋向內夾，保持與腳趾方向一致",
+        "en": "Don't let knees cave inward — keep them aligned with your toes"
+      },
+      {
+        "zh": "不要在最高點鎖死膝蓋，保留微彎保護關節",
+        "en": "Don't fully lock your knees at the top — keep a slight bend to protect your joints"
+      }
     ],
     "warning": {
       "zh": "使用完畢務必重新鎖上安全把手，避免踏板意外滑落造成受傷",
@@ -30,27 +51,48 @@
   },
   {
     "id": "assisted-pull-ups",
-    "name": { "zh": "輔助引體向上機", "en": "Assisted Pull Ups" },
-    "description": { "zh": "幫助初學者練習引體向上，輔助重量越重越輕鬆", "en": "Helps beginners practice pull ups — the more assistance weight you select, the easier it is" },
+    "name": {
+      "zh": "輔助引體向上機",
+      "en": "Assisted Pull Ups"
+    },
+    "description": {
+      "zh": "幫助初學者練習引體向上，輔助重量越重越輕鬆",
+      "en": "Helps beginners practice pull ups — the more assistance weight you select, the easier it is"
+    },
     "thumbnail": "/images/assisted-pull-ups-thumb.jpg",
-    "muscles": [
-      { "zh": "背部", "en": "Back" },
-      { "zh": "手臂", "en": "Arms" },
-      { "zh": "肩膀", "en": "Shoulders" }
-    ],
     "sketchfabId": "43592d585f694f9aae975b5ba2435500",
-    "gif": "/videos/assisted-pull-ups.gif",
     "callout": "/images/assisted-pull-ups-callout.jpg",
     "steps": [
-      { "zh": "選擇輔助重量：數字越大代表輔助越多、越輕鬆，初學者建議從體重的 50–70% 開始", "en": "Select assistance weight: a higher number means more help and easier movement — beginners start at 50–70% of body weight" },
-      { "zh": "調整膝蓋墊高度至合適位置", "en": "Adjust the knee pad to a comfortable height" },
-      { "zh": "雙膝跪上膝蓋墊，雙手握住上方橫桿，握距略寬於肩", "en": "Kneel on the pad and grip the overhead bar slightly wider than shoulder-width" },
-      { "zh": "用背部與手臂的力量將身體向上拉，直到下巴超過橫桿", "en": "Pull your body upward using your back and arms until your chin clears the bar" },
-      { "zh": "緩慢控制身體下降回到起始位置，不要讓身體自由落下", "en": "Slowly lower yourself back to the starting position — don't let your body drop" }
+      {
+        "zh": "選擇輔助重量：數字越大代表輔助越多、越輕鬆，初學者建議從體重的 50–70% 開始",
+        "en": "Select assistance weight: a higher number means more help and easier movement — beginners start at 50–70% of body weight"
+      },
+      {
+        "zh": "調整膝蓋墊高度至合適位置",
+        "en": "Adjust the knee pad to a comfortable height"
+      },
+      {
+        "zh": "雙膝跪上膝蓋墊，雙手握住上方橫桿，握距略寬於肩",
+        "en": "Kneel on the pad and grip the overhead bar slightly wider than shoulder-width"
+      },
+      {
+        "zh": "用背部與手臂的力量將身體向上拉，直到下巴超過橫桿",
+        "en": "Pull your body upward using your back and arms until your chin clears the bar"
+      },
+      {
+        "zh": "緩慢控制身體下降回到起始位置，不要讓身體自由落下",
+        "en": "Slowly lower yourself back to the starting position — don't let your body drop"
+      }
     ],
     "mistakes": [
-      { "zh": "不要用甩動身體借力，保持動作穩定控制", "en": "Don't swing your body to assist the movement — keep it controlled" },
-      { "zh": "不要快速落下，向下的過程同樣需要肌肉控制", "en": "Don't drop down too quickly — the lowering phase also builds strength" }
+      {
+        "zh": "不要用甩動身體借力，保持動作穩定控制",
+        "en": "Don't swing your body to assist the movement — keep it controlled"
+      },
+      {
+        "zh": "不要快速落下，向下的過程同樣需要肌肉控制",
+        "en": "Don't drop down too quickly — the lowering phase also builds strength"
+      }
     ],
     "warning": {
       "zh": "注意：選擇的輔助重量數字越小代表越困難，初學者請從較大的數字開始",
@@ -59,26 +101,48 @@
   },
   {
     "id": "bicep-curl-machine",
-    "name": { "zh": "二頭肌彎舉機（纜繩）", "en": "Bicep Curl Machine (Cable Loaded)" },
-    "description": { "zh": "專門訓練二頭肌，纜繩設計提供全程穩定阻力", "en": "Isolates and trains the biceps with consistent cable resistance throughout the movement" },
+    "name": {
+      "zh": "二頭肌彎舉機（纜繩）",
+      "en": "Bicep Curl Machine (Cable Loaded)"
+    },
+    "description": {
+      "zh": "專門訓練二頭肌，纜繩設計提供全程穩定阻力",
+      "en": "Isolates and trains the biceps with consistent cable resistance throughout the movement"
+    },
     "thumbnail": "/images/bicep-curl-machine-thumb.jpg",
-    "muscles": [
-      { "zh": "二頭肌", "en": "Biceps" },
-      { "zh": "手臂前側", "en": "Front Arms" }
-    ],
     "sketchfabId": "27f765c00f984c85946cefdeeaa9d872",
-    "gif": "/videos/bicep-curl-machine.gif",
     "callout": "/images/bicep-curl-machine-callout.jpg",
     "steps": [
-      { "zh": "調整座椅高度，使手肘可以自然貼放在手臂墊上", "en": "Adjust seat height so your elbows rest naturally on the arm pad" },
-      { "zh": "選擇重量：初學者建議從 5–10 公斤開始", "en": "Choose weight: beginners start with 5–10 kg" },
-      { "zh": "雙手以正握（掌心向上）握住握把", "en": "Grip the handles with an underhand grip (palms facing up)" },
-      { "zh": "保持手肘緊貼手臂墊，將握把向上彎舉至肩膀位置", "en": "Keeping elbows on the pad, curl the handles upward toward your shoulders" },
-      { "zh": "緩慢放下回到起始位置，感受二頭肌伸展", "en": "Slowly lower back to the starting position and feel the stretch in your biceps" }
+      {
+        "zh": "調整座椅高度，使手肘可以自然貼放在手臂墊上",
+        "en": "Adjust seat height so your elbows rest naturally on the arm pad"
+      },
+      {
+        "zh": "選擇重量：初學者建議從 5–10 公斤開始",
+        "en": "Choose weight: beginners start with 5–10 kg"
+      },
+      {
+        "zh": "雙手以正握（掌心向上）握住握把",
+        "en": "Grip the handles with an underhand grip (palms facing up)"
+      },
+      {
+        "zh": "保持手肘緊貼手臂墊，將握把向上彎舉至肩膀位置",
+        "en": "Keeping elbows on the pad, curl the handles upward toward your shoulders"
+      },
+      {
+        "zh": "緩慢放下回到起始位置，感受二頭肌伸展",
+        "en": "Slowly lower back to the starting position and feel the stretch in your biceps"
+      }
     ],
     "mistakes": [
-      { "zh": "不要讓手肘離開手臂墊，手肘移動會減少二頭肌訓練效果", "en": "Don't lift your elbows off the pad — this reduces bicep engagement" },
-      { "zh": "不要用甩動或借力方式舉起重量", "en": "Don't use momentum or swinging to lift the weight" }
+      {
+        "zh": "不要讓手肘離開手臂墊，手肘移動會減少二頭肌訓練效果",
+        "en": "Don't lift your elbows off the pad — this reduces bicep engagement"
+      },
+      {
+        "zh": "不要用甩動或借力方式舉起重量",
+        "en": "Don't use momentum or swinging to lift the weight"
+      }
     ],
     "warning": {
       "zh": "若感到手肘或手腕疼痛請立即停止，檢查座椅高度是否正確",
@@ -87,26 +151,48 @@
   },
   {
     "id": "cable-loaded-abductors",
-    "name": { "zh": "纜繩髖外展機", "en": "Cable Loaded Abductors" },
-    "description": { "zh": "訓練臀部外側與大腿外側肌群，有助於塑造臀型", "en": "Trains the outer glutes and outer thighs — great for shaping and strengthening the hips" },
+    "name": {
+      "zh": "纜繩髖外展機",
+      "en": "Cable Loaded Abductors"
+    },
+    "description": {
+      "zh": "訓練臀部外側與大腿外側肌群，有助於塑造臀型",
+      "en": "Trains the outer glutes and outer thighs — great for shaping and strengthening the hips"
+    },
     "thumbnail": "/images/cable-loaded-abductors-thumb.jpg",
-    "muscles": [
-      { "zh": "臀部外側", "en": "Outer Glutes" },
-      { "zh": "大腿外側", "en": "Outer Thighs" }
-    ],
     "sketchfabId": "ce660cb48c45472dbd9a8f5b6122a2ac",
-    "gif": "/videos/cable-loaded-abductors.gif",
     "callout": "/images/cable-loaded-abductors-callout.jpg",
     "steps": [
-      { "zh": "調整座椅高度並選擇適合的重量，初學者建議從輕重量開始", "en": "Adjust the seat height and select a weight — beginners should start light" },
-      { "zh": "坐下，背部挺直貼合椅背，雙腳放入腿部靠墊內側", "en": "Sit with your back straight against the seat, place your legs inside the leg pads" },
-      { "zh": "雙手握住把手以保持穩定", "en": "Hold the side handles for stability" },
-      { "zh": "用臀部外側力量將雙腿向外推開，動作要穩定", "en": "Push your legs outward against the resistance using your outer glutes — keep the movement controlled" },
-      { "zh": "緩慢將雙腿收回起始位置，不要讓重量快速彈回", "en": "Slowly bring your legs back together — don't let the weight snap back" }
+      {
+        "zh": "調整座椅高度並選擇適合的重量，初學者建議從輕重量開始",
+        "en": "Adjust the seat height and select a weight — beginners should start light"
+      },
+      {
+        "zh": "坐下，背部挺直貼合椅背，雙腳放入腿部靠墊內側",
+        "en": "Sit with your back straight against the seat, place your legs inside the leg pads"
+      },
+      {
+        "zh": "雙手握住把手以保持穩定",
+        "en": "Hold the side handles for stability"
+      },
+      {
+        "zh": "用臀部外側力量將雙腿向外推開，動作要穩定",
+        "en": "Push your legs outward against the resistance using your outer glutes — keep the movement controlled"
+      },
+      {
+        "zh": "緩慢將雙腿收回起始位置，不要讓重量快速彈回",
+        "en": "Slowly bring your legs back together — don't let the weight snap back"
+      }
     ],
     "mistakes": [
-      { "zh": "不要向前傾身借力，保持背部貼合椅背", "en": "Don't lean forward to assist — keep your back flat against the seat" },
-      { "zh": "不要讓重量快速回位，控制全程動作", "en": "Don't let the weight return quickly — control the movement throughout" }
+      {
+        "zh": "不要向前傾身借力，保持背部貼合椅背",
+        "en": "Don't lean forward to assist — keep your back flat against the seat"
+      },
+      {
+        "zh": "不要讓重量快速回位，控制全程動作",
+        "en": "Don't let the weight return quickly — control the movement throughout"
+      }
     ],
     "warning": {
       "zh": "動作過程中避免用力甩腿，穩定的動作才能有效訓練並避免受傷",
@@ -115,26 +201,48 @@
   },
   {
     "id": "leg-extension-machine",
-    "name": { "zh": "腿部伸展機（槓片式）", "en": "Leg Extension Machine (Plate Loaded)" },
-    "description": { "zh": "專門訓練大腿前側股四頭肌，是塑造大腿線條的入門器材", "en": "Isolates the quadriceps (front thighs) — a great beginner machine for toning the legs" },
+    "name": {
+      "zh": "腿部伸展機（槓片式）",
+      "en": "Leg Extension Machine (Plate Loaded)"
+    },
+    "description": {
+      "zh": "專門訓練大腿前側股四頭肌，是塑造大腿線條的入門器材",
+      "en": "Isolates the quadriceps (front thighs) — a great beginner machine for toning the legs"
+    },
     "thumbnail": "/images/leg-extension-machine-thumb.jpg",
-    "muscles": [
-      { "zh": "股四頭肌", "en": "Quadriceps" },
-      { "zh": "大腿前側", "en": "Front Thighs" }
-    ],
     "sketchfabId": "57d85a08ee924d9ba0188b4e7afa8928",
-    "gif": "/videos/leg-extension-machine.gif",
     "callout": "/images/leg-extension-machine-callout.jpg",
     "steps": [
-      { "zh": "調整座椅使膝蓋對齊機器的旋轉軸心點", "en": "Adjust the seat so your knees align with the machine's pivot point" },
-      { "zh": "調整腳墊位置至腳踝前方", "en": "Adjust the foot pad to sit just above your ankles" },
-      { "zh": "裝上適合的槓片並插上安全插銷", "en": "Load the appropriate plates and insert the safety pin" },
-      { "zh": "雙手握住兩側把手，將雙腿向上伸展至幾乎打直", "en": "Hold the side handles and extend both legs upward until nearly straight" },
-      { "zh": "緩慢放下回到起始位置，感受大腿前側用力", "en": "Slowly lower back to the start position and feel the tension in your front thighs" }
+      {
+        "zh": "調整座椅使膝蓋對齊機器的旋轉軸心點",
+        "en": "Adjust the seat so your knees align with the machine's pivot point"
+      },
+      {
+        "zh": "調整腳墊位置至腳踝前方",
+        "en": "Adjust the foot pad to sit just above your ankles"
+      },
+      {
+        "zh": "裝上適合的槓片並插上安全插銷",
+        "en": "Load the appropriate plates and insert the safety pin"
+      },
+      {
+        "zh": "雙手握住兩側把手，將雙腿向上伸展至幾乎打直",
+        "en": "Hold the side handles and extend both legs upward until nearly straight"
+      },
+      {
+        "zh": "緩慢放下回到起始位置，感受大腿前側用力",
+        "en": "Slowly lower back to the start position and feel the tension in your front thighs"
+      }
     ],
     "mistakes": [
-      { "zh": "不要在最高點鎖死膝蓋，保留微彎以保護膝關節", "en": "Don't lock your knees fully at the top — keep a slight bend to protect the joint" },
-      { "zh": "不要用甩腿方式借力，動作要緩慢控制", "en": "Don't swing your legs using momentum — keep the movement slow and controlled" }
+      {
+        "zh": "不要在最高點鎖死膝蓋，保留微彎以保護膝關節",
+        "en": "Don't lock your knees fully at the top — keep a slight bend to protect the joint"
+      },
+      {
+        "zh": "不要用甩腿方式借力，動作要緩慢控制",
+        "en": "Don't swing your legs using momentum — keep the movement slow and controlled"
+      }
     ],
     "warning": {
       "zh": "若感到膝蓋疼痛請立即停止，檢查膝蓋是否對齊旋轉軸心，或降低重量",

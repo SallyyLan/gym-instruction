@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import type { Machine } from '../types/machine'
-import MuscleTags from './MuscleTags'
 
 interface Props {
   machine: Machine
@@ -27,7 +26,6 @@ export default function MachineCard({ machine }: Props) {
       <div className="p-3 space-y-2">
         <h2 className="font-semibold text-sm text-gray-900 leading-snug">{machine.name[lang]}</h2>
         <p className="text-xs text-gray-400 line-clamp-2">{machine.description[lang]}</p>
-        <MuscleTags tags={machine.muscles.map((m) => m[lang])} />
       </div>
     </Link>
   )

@@ -1,0 +1,447 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - button "navigation" [ref=e5] [cursor=pointer]:
+        - generic [ref=e7]: 
+      - link "Go to the mainpage" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - text: ▼ ▼  
+      - generic [ref=e24]:
+        - link "Search" [ref=e26] [cursor=pointer]:
+          - /url: /search
+          - generic [ref=e27]: 
+        - text: 
+  - navigation [ref=e29]:
+    - list [ref=e30]:
+      - listitem [ref=e31]:
+        - list [ref=e32]:
+          - listitem [ref=e33]:
+            - link "Login" [ref=e34] [cursor=pointer]:
+              - /url: /login
+            - link "Sign up" [ref=e35] [cursor=pointer]:
+              - /url: /signup
+      - listitem [ref=e36]:
+        - link "Home" [ref=e37] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - heading "Explore" [level=3] [ref=e41]
+            - text: ▼
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link " All categories" [ref=e44] [cursor=pointer]:
+                - /url: /categories
+                - generic [ref=e45]: 
+                - text: All categories
+            - listitem [ref=e46]:
+              - link " Popular" [ref=e47] [cursor=pointer]:
+                - /url: /3d-models/popular
+                - generic [ref=e48]: 
+                - text: Popular
+            - listitem [ref=e49]:
+              - link " Staff picks" [ref=e50] [cursor=pointer]:
+                - /url: /3d-models/staffpicks
+                - generic [ref=e51]: 
+                - text: Staff picks
+            - listitem [ref=e52]:
+              - link " Downloadable" [ref=e53] [cursor=pointer]:
+                - /url: /3d-models?date=week&features=downloadable&sort_by=-likeCount
+                - generic [ref=e54]: 
+                - text: Downloadable
+            - listitem [ref=e55]:
+              - link " Collections" [ref=e56] [cursor=pointer]:
+                - /url: /collections/popular
+                - generic [ref=e57]: 
+                - text: Collections
+            - listitem [ref=e58]:
+              - link "Human Created" [ref=e59] [cursor=pointer]:
+                - /url: /3d-models?is_ai=0
+                - img [ref=e60]
+                - generic [ref=e71]: Human Created
+            - listitem [ref=e72]:
+              - link " AI Generated" [ref=e73] [cursor=pointer]:
+                - /url: /3d-models?is_ai=1
+                - generic [ref=e74]: 
+                - text: AI Generated
+            - listitem [ref=e75]
+            - listitem [ref=e76]:
+              - link "Blog" [ref=e77] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/community
+            - listitem [ref=e78]:
+              - link "Community members" [ref=e79] [cursor=pointer]:
+                - /url: /members
+      - listitem [ref=e80]:
+        - heading "Buy 3D models" [level=3] [ref=e82]:
+          - link "Buy 3D models" [ref=e83] [cursor=pointer]:
+            - /url: /store
+      - listitem [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - heading "For business" [level=3] [ref=e87]
+            - text: ▼
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - link "Sketchfab for Teams" [ref=e90] [cursor=pointer]:
+                - /url: /3d-asset-management
+            - listitem [ref=e91]:
+              - link "Augmented Reality" [ref=e92] [cursor=pointer]:
+                - /url: /augmented-reality
+            - listitem [ref=e93]:
+              - link "3D Viewer" [ref=e94] [cursor=pointer]:
+                - /url: /3d-viewer
+            - listitem [ref=e95]:
+              - link "3D eCommerce" [ref=e96] [cursor=pointer]:
+                - /url: /3d-ecommerce
+            - listitem [ref=e97]:
+              - link "3D Configurators" [ref=e98] [cursor=pointer]:
+                - /url: /3d-configurators
+            - listitem [ref=e99]:
+              - link "Find a Partner" [ref=e100] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/enterprise/partners-directory
+            - listitem [ref=e101]:
+              - link "Pricing" [ref=e102] [cursor=pointer]:
+                - /url: /plans
+            - listitem [ref=e103]:
+              - link "Customer Stories" [ref=e104] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/enterprise
+  - main [ref=e105]:
+    - generic [ref=e109]:
+      - iframe [active] [ref=e111]:
+        - main "sketchfab-viewer" [ref=f31e2]:
+          - generic:
+            - generic:
+              - heading "Leg Press Machine" [level=1]:
+                - link "Leg Press Machine" [ref=f31e3] [cursor=pointer]:
+                  - /url: https://sketchfab.com/3d-models/leg-press-machine-99b9c28dd70d4131918d23f0b58cb14a
+          - text: 
+          - generic [ref=f31e4]:
+            - generic "3D view of Leg Press Machine" [ref=f31e5]
+            - generic:
+              - generic:
+                - img "Loading 3D Model"
+                - generic:
+                  - paragraph: Loading 3D model
+            - generic:
+              - generic:
+                - generic "close": 
+                - paragraph: Model is too heavy for your device and can not be rendered properly
+              - text:  
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 
+                    - text: Model Inspector
+              - generic:
+                - generic:
+                  - generic:
+                    - generic "Play Animation": 
+                    - text: 
+                    - generic: 00:00.00
+                    - generic:
+                      - paragraph
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - radio ""
+                              - generic:
+                                - generic: 
+                              - text: Repeat one
+                            - generic:
+                              - radio ""
+                              - generic:
+                                - generic: 
+                              - text: Repeat all
+                            - generic:
+                              - radio ""
+                              - generic:
+                                - generic: 
+                              - text: No repeat
+                          - generic:
+                            - generic:
+                              - radio "x0.1"
+                              - generic: x0.1
+                              - text: Speed x0.1
+                            - generic:
+                              - radio "x0.5"
+                              - generic: x0.5
+                              - text: Speed x0.5
+                            - generic:
+                              - radio "x1"
+                              - generic: x1
+                              - text: Speed x1
+                            - generic:
+                              - radio "x2"
+                              - generic: x2
+                              - text: Speed x2
+                        - list
+                - text:  
+                - generic:
+                  - generic [ref=f31e6] [cursor=pointer]:
+                    - generic: 
+                    - text: Help
+                  - text: 
+                  - generic [ref=f31e7] [cursor=pointer]:
+                    - generic: 
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: Navigation
+                            - paragraph: Orbit
+                    - text: Settings
+                  - generic [ref=f31e8] [cursor=pointer]:
+                    - generic: 
+                    - text: Model Inspector (i)
+                  - generic [ref=f31e9] [cursor=pointer]:
+                    - generic: 
+                    - text: View in VR
+                  - text:  Theatre Mode
+                  - generic [ref=f31e10] [cursor=pointer]:
+                    - generic: 
+                    - text: Fullscreen (f)
+              - generic:
+                - generic:
+                  - generic:
+                    - text: click & hold
+                    - text: to rotate
+          - text:  Fullscreen (f)
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - heading "Leg Press Machine 3D Model" [level=1] [ref=e115]:
+            - generic [ref=e117]: Leg Press Machine
+            - generic [ref=e118]: 3D Model
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - link "Avatar of silentsheri" [ref=e121] [cursor=pointer]:
+                - /url: /silentsheri
+                - img "Avatar of silentsheri" [ref=e125]
+              - generic [ref=e126]:
+                - link "silentsheri" [ref=e129] [cursor=pointer]:
+                  - /url: /silentsheri
+                  - generic "silentsheri" [ref=e131]
+                - button "Follow" [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134]: Follow
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - generic [ref=e137]: 
+                - generic [ref=e138]: "709"
+                - generic: 709 Downloads
+              - generic [ref=e139]:
+                - generic [ref=e140]: 
+                - generic [ref=e141]: 2k
+                - generic: 2016 Views
+              - generic [ref=e142] [cursor=pointer]:
+                - text: 
+                - generic [ref=e143]: "18"
+                - generic: Like
+          - generic [ref=e145]:
+            - button " Download 3D Model" [ref=e146] [cursor=pointer]:
+              - generic [ref=e147]: 
+              - generic [ref=e148]: Download 3D Model
+            - button "+ Add to" [ref=e149] [cursor=pointer]:
+              - generic [ref=e150]: +
+              - generic [ref=e151]: Add to
+            - button " Embed" [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]: 
+              - generic [ref=e154]: Embed
+            - button " Share" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: 
+              - generic [ref=e157]: Share
+            - link " Report" [ref=e158] [cursor=pointer]:
+              - /url: https://safety.epicgames.com/policies/reporting-misconduct/submit-report?product_id=sketchfab_content_report&content_type=sketchfab_model&content_url=https://sketchfab.com/3d-models/leg-press-machine-99b9c28dd70d4131918d23f0b58cb14a&content_id=99b9c28dd70d4131918d23f0b58cb14a
+              - generic [ref=e159]: 
+              - generic [ref=e160]: Report
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - text: "Triangles:"
+              - generic [ref=e164]: 58.2k
+            - generic [ref=e165]: "Vertices: 29.7k"
+            - generic [ref=e166] [cursor=pointer]: More model information
+          - paragraph [ref=e169]: The Mid Poly Leg Press 3D Model is a model of a leg press machine that was created in Cinema-4D. It can be used to create scenes with gym equipment, bodybuilding, or sports.
+          - generic [ref=e170]:
+            - generic [ref=e172]:
+              - text: "License:"
+              - generic [ref=e173]:
+                - paragraph [ref=e174]:
+                  - text: CC Attribution
+                  - generic: Creative Commons Attribution
+                - link " Learn more" [ref=e176] [cursor=pointer]:
+                  - /url: http://creativecommons.org/licenses/by/4.0/
+                  - generic [ref=e177]: 
+                  - text: Learn more
+            - generic [ref=e178]:
+              - generic [ref=e179]: 
+              - generic [ref=e180]:
+                - text: Published
+                - time [ref=e181]: a year ago
+                - generic: Dec 25th 2024
+            - generic [ref=e182]:
+              - generic [ref=e183]: 
+              - list [ref=e184]:
+                - listitem [ref=e185]:
+                  - link "Sports & fitness 3D Models" [ref=e186] [cursor=pointer]:
+                    - /url: /categories/sports-fitness
+            - generic [ref=e187]:
+              - generic [ref=e188]: 
+              - list [ref=e189]:
+                - listitem [ref=e190]:
+                  - link "sports" [ref=e191] [cursor=pointer]:
+                    - /url: /tags/sports
+                - listitem [ref=e192]:
+                  - link "gym" [ref=e193] [cursor=pointer]:
+                    - /url: /tags/gym
+                - listitem [ref=e194]:
+                  - link "lifestyle" [ref=e195] [cursor=pointer]:
+                    - /url: /tags/lifestyle
+                - listitem [ref=e196]:
+                  - link "weights" [ref=e197] [cursor=pointer]:
+                    - /url: /tags/weights
+                - listitem [ref=e198]:
+                  - link "excercise" [ref=e199] [cursor=pointer]:
+                    - /url: /tags/excercise
+                - listitem [ref=e200]:
+                  - link "healthy" [ref=e201] [cursor=pointer]:
+                    - /url: /tags/healthy
+                - listitem [ref=e202]:
+                  - link "legpress" [ref=e203] [cursor=pointer]:
+                    - /url: /tags/legpress
+                - listitem [ref=e204]:
+                  - link "fitness-machine" [ref=e205] [cursor=pointer]:
+                    - /url: /tags/fitness-machine
+        - generic [ref=e208]:
+          - paragraph [ref=e209]: 1 comment
+          - generic [ref=e212]:
+            - generic [ref=e213]: You must log in to comment.
+            - button "Log in to comment" [ref=e215] [cursor=pointer]
+    - generic [ref=e250]:
+      - navigation "footer navigation" [ref=e251]:
+        - generic [ref=e252]:
+          - generic [ref=e253]: enterprise
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - link "Enterprise Solutions" [ref=e256] [cursor=pointer]:
+                - /url: /enterprise
+            - listitem [ref=e257]:
+              - link "3D Configurators" [ref=e258] [cursor=pointer]:
+                - /url: /3d-configurators
+            - listitem [ref=e259]:
+              - link "3D eCommerce" [ref=e260] [cursor=pointer]:
+                - /url: /3d-ecommerce
+            - listitem [ref=e261]:
+              - link "3D Viewer" [ref=e262] [cursor=pointer]:
+                - /url: /3d-viewer
+            - listitem [ref=e263]:
+              - link "3D Advertising" [ref=e264] [cursor=pointer]:
+                - /url: /3d-advertising
+            - listitem [ref=e265]:
+              - link "Sketchfab for Teams" [ref=e266] [cursor=pointer]:
+                - /url: /3d-asset-management
+            - listitem [ref=e267]:
+              - link "Customer Stories" [ref=e268] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/enterprise
+            - listitem [ref=e269]:
+              - link "Pricing" [ref=e270] [cursor=pointer]:
+                - /url: /plans
+        - generic [ref=e271]:
+          - generic [ref=e272]: ecosystem
+          - list [ref=e273]:
+            - listitem [ref=e274]:
+              - link "Exporters" [ref=e275] [cursor=pointer]:
+                - /url: /exporters
+            - listitem [ref=e276]:
+              - link "Importers" [ref=e277] [cursor=pointer]:
+                - /url: /importers
+            - listitem [ref=e278]:
+              - link "Developers & API" [ref=e279] [cursor=pointer]:
+                - /url: /developers
+            - listitem [ref=e280]:
+              - link "Augmented Reality" [ref=e281] [cursor=pointer]:
+                - /url: /augmented-reality
+            - listitem [ref=e282]:
+              - link "Virtual Reality" [ref=e283] [cursor=pointer]:
+                - /url: /virtual-reality
+        - generic [ref=e284]:
+          - generic [ref=e285]: store
+          - list [ref=e286]:
+            - listitem [ref=e287]:
+              - link "Buy 3D models" [ref=e288] [cursor=pointer]:
+                - /url: https://www.fab.com/category/3d-model
+            - listitem [ref=e289]:
+              - link "Become a Seller on Fab" [ref=e290] [cursor=pointer]:
+                - /url: https://www.fab.com/become-a-publisher
+            - listitem [ref=e291]:
+              - link "Free 3D Models" [ref=e292] [cursor=pointer]:
+                - /url: /features/free-3d-models
+        - generic [ref=e293]:
+          - generic [ref=e294]: community
+          - list [ref=e295]:
+            - listitem [ref=e296]:
+              - link "Explore" [ref=e297] [cursor=pointer]:
+                - /url: /3d-models/popular
+            - listitem [ref=e298]:
+              - link "Help Center" [ref=e299] [cursor=pointer]:
+                - /url: https://support.fab.com/s/?ProductOrigin=Sketchfab
+            - listitem [ref=e300]:
+              - link "Education" [ref=e301] [cursor=pointer]:
+                - /url: /education
+            - listitem [ref=e302]:
+              - link "Museums" [ref=e303] [cursor=pointer]:
+                - /url: /museums
+            - listitem [ref=e304]:
+              - link "Blog" [ref=e305] [cursor=pointer]:
+                - /url: https://sketchfab.com/blogs/community
+            - listitem [ref=e306]:
+              - link "Sketchfab Masters" [ref=e307] [cursor=pointer]:
+                - /url: /masters
+        - generic [ref=e308]:
+          - generic [ref=e309]: about
+          - list [ref=e310]:
+            - listitem [ref=e311]:
+              - link "Company" [ref=e312] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e313]:
+              - link "Careers" [ref=e314] [cursor=pointer]:
+                - /url: https://www.epicgames.com/site/en-US/careers
+            - listitem [ref=e315]:
+              - link "Press Kit" [ref=e316] [cursor=pointer]:
+                - /url: /press
+            - listitem [ref=e317]:
+              - link "Features" [ref=e318] [cursor=pointer]:
+                - /url: /features
+            - listitem [ref=e319]:
+              - link "Contact us" [ref=e320] [cursor=pointer]:
+                - /url: /about#contact
+      - generic [ref=e321]:
+        - generic [ref=e322]:
+          - img [ref=e323]
+          - generic [ref=e328]: © 2026, Sketchfab, Inc. All rights reserved.
+        - generic [ref=e329]:
+          - link "Terms of use" [ref=e330] [cursor=pointer]:
+            - /url: /terms
+          - link "Privacy policy" [ref=e331] [cursor=pointer]:
+            - /url: /privacy
+          - link "Sitemap" [ref=e332] [cursor=pointer]:
+            - /url: /sitemap
+        - generic [ref=e333]:
+          - link "Follow us on Twitter" [ref=e334] [cursor=pointer]:
+            - /url: https://twitter.com/Sketchfab
+            - img [ref=e335]
+          - link "Follow us on Instagram" [ref=e339] [cursor=pointer]:
+            - /url: https://www.instagram.com/sketchfab
+            - img [ref=e340]
+          - link "Follow us on Facebook" [ref=e344] [cursor=pointer]:
+            - /url: https://www.facebook.com/Sketchfab
+            - img [ref=e345]
+          - link "Join us on Discord" [ref=e349] [cursor=pointer]:
+            - /url: https://discord.gg/VzNxX6D
+            - img [ref=e350]
+          - link "Follow us on Pinterest" [ref=e354] [cursor=pointer]:
+            - /url: https://www.pinterest.com/sketchfab
+            - img [ref=e355]
+          - link "Follow us on Linkedin" [ref=e359] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/sketchfab
+            - img [ref=e360]
