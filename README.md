@@ -14,7 +14,9 @@ Most gym equipment comes with a paper instruction — dense text, static diagram
 
 The consequences are real: people avoid equipment entirely, develop bad form, or injure themselves. Even those who attend a coach-led class often struggle to replicate movements independently — the instruction doesn't stay with them once they're training alone.
 
-**Target users:** Gym beginners: people who are new to weight training, training without a coach, and want to use equipment safely and correctly on their own.
+**Target users:** 
+- Gym beginners: people who are new to weight training, training without a coach, and want to use equipment safely and correctly on their own.
+- People who want to try new equipment.
 
 ---
 
