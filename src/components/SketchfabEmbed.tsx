@@ -18,7 +18,7 @@ export default function SketchfabEmbed({ modelId, title }: Props) {
       )}
       <iframe
         title={title}
-        src={`https://sketchfab.com/models/${modelId}/embed?autospin=1&autostart=1&transparent=1&ui_infos=0&ui_watermark_link=0&ui_watermark=0`}
+        src={`https://sketchfab.com/models/${modelId}/embed?autospin=1&autostart=1&transparent=1&ui_infos=0&ui_watermark_link=0&ui_watermark=0&ui_hint=2`}
         className="absolute inset-0 w-full h-full border-0"
         allow="autoplay; fullscreen; xr-spatial-tracking"
         allowFullScreen
