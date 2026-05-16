@@ -8,7 +8,7 @@
       { "zh": "背部", "en": "Back" },
       { "zh": "手臂", "en": "Arms" }
     ],
-    "sketchfabId": "PLACEHOLDER_LAT_PULLDOWN",
+    "sketchfabId": "50fb1df222e6468f9d7ada63c45d673d",
     "gif": "/videos/lat-pulldown.gif",
     "callout": "/images/lat-pulldown-callout.jpg",
     "steps": [
@@ -37,7 +37,7 @@
       { "zh": "手臂", "en": "Arms" },
       { "zh": "核心", "en": "Core" }
     ],
-    "sketchfabId": "PLACEHOLDER_CABLE_ROW",
+    "sketchfabId": "8c1d79d01dff4786a0ce2da6419b3e19",
     "gif": "/videos/cable-row.gif",
     "callout": "/images/cable-row-callout.jpg",
     "steps": [
@@ -65,7 +65,7 @@
       { "zh": "腹部", "en": "Abs" },
       { "zh": "核心", "en": "Core" }
     ],
-    "sketchfabId": "PLACEHOLDER_ABDOMINAL_BENCH",
+    "sketchfabId": "318440863c7a4ecc8f9a0b2547666160",
     "gif": "/videos/abdominal-bench.gif",
     "callout": "/images/abdominal-bench-callout.jpg",
     "steps": [
@@ -94,7 +94,7 @@
       { "zh": "臀部", "en": "Glutes" },
       { "zh": "小腿", "en": "Calves" }
     ],
-    "sketchfabId": "PLACEHOLDER_LEG_PRESS",
+    "sketchfabId": "99b9c28dd70d4131918d23f0b58cb14a",
     "gif": "/videos/leg-press.gif",
     "callout": "/images/leg-press-callout.jpg",
     "steps": [
@@ -123,7 +123,7 @@
       { "zh": "肩膀", "en": "Shoulders" },
       { "zh": "手臂", "en": "Arms" }
     ],
-    "sketchfabId": "PLACEHOLDER_CHEST_PRESS",
+    "sketchfabId": "963b7850033e435c8c1aa77511425412",
     "gif": "/videos/chest-press.gif",
     "callout": "/images/chest-press-callout.jpg",
     "steps": [
