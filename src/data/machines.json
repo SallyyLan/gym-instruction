@@ -1,0 +1,145 @@
+[
+  {
+    "id": "lat-pulldown",
+    "name": { "zh": "滑輪下拉機", "en": "Lat Pulldown Machine" },
+    "description": { "zh": "訓練背部與手臂肌肉，適合初學者建立上背力量", "en": "Trains back and arm muscles, great for beginners building upper back strength" },
+    "thumbnail": "/images/lat-pulldown-thumb.jpg",
+    "muscles": [
+      { "zh": "背部", "en": "Back" },
+      { "zh": "手臂", "en": "Arms" }
+    ],
+    "sketchfabId": "PLACEHOLDER_LAT_PULLDOWN",
+    "gif": "/videos/lat-pulldown.gif",
+    "callout": "/images/lat-pulldown-callout.jpg",
+    "steps": [
+      { "zh": "調整座墊高度，使大腿貼合固定墊", "en": "Adjust the seat pad so your thighs fit snugly under the pad" },
+      { "zh": "站立抓住橫桿後坐下，雙手握距略寬於肩", "en": "Stand, grab the bar slightly wider than shoulder-width, then sit down" },
+      { "zh": "選擇重量：初學者建議從體重的 30–40% 開始", "en": "Choose weight: beginners should start at 30–40% of body weight" },
+      { "zh": "背部挺直，將橫桿向胸口方向下拉，感受背部用力", "en": "Keep back straight, pull the bar down toward your chest, feel your back engage" },
+      { "zh": "緩慢控制讓橫桿回到起始位置", "en": "Slowly let the bar return to the starting position under control" }
+    ],
+    "mistakes": [
+      { "zh": "不要用甩動身體的方式借力拉下橫桿", "en": "Don't swing your body to pull the bar down" },
+      { "zh": "不要讓重量快速彈回，保持全程控制", "en": "Don't let the weight snap back — control the return" }
+    ],
+    "warning": {
+      "zh": "若感到肩膀或手肘疼痛請立即停止，重量過重是常見原因",
+      "en": "Stop immediately if you feel shoulder or elbow pain — weight is likely too heavy"
+    }
+  },
+  {
+    "id": "cable-row",
+    "name": { "zh": "坐姿划船機", "en": "Cable Row Machine" },
+    "description": { "zh": "訓練背部中段與手臂，幫助改善坐姿與體態", "en": "Trains mid-back and arms, helps improve posture" },
+    "thumbnail": "/images/cable-row-thumb.jpg",
+    "muscles": [
+      { "zh": "背部中段", "en": "Mid Back" },
+      { "zh": "手臂", "en": "Arms" },
+      { "zh": "核心", "en": "Core" }
+    ],
+    "sketchfabId": "PLACEHOLDER_CABLE_ROW",
+    "gif": "/videos/cable-row.gif",
+    "callout": "/images/cable-row-callout.jpg",
+    "steps": [
+      { "zh": "坐在座墊上，雙腳踩在腳踏板，膝蓋微彎", "en": "Sit on the pad, place feet on the platform with a slight knee bend" },
+      { "zh": "身體微微前傾抓住握把，背部打直", "en": "Lean slightly forward to grab the handle, keep your back straight" },
+      { "zh": "選擇重量：初學者建議 10–20 公斤開始", "en": "Choose weight: beginners start with 10–20 kg" },
+      { "zh": "將握把向肚臍方向拉，手肘靠近身體兩側", "en": "Pull the handle toward your navel, keep elbows close to your sides" },
+      { "zh": "緩慢回到起始位置，感受背部伸展", "en": "Slowly return to start and feel the stretch in your back" }
+    ],
+    "mistakes": [
+      { "zh": "不要用甩動背部借力，動作要穩定", "en": "Don't rock your back to pull the weight — keep movement controlled" },
+      { "zh": "不要聳肩，保持肩膀向下放鬆", "en": "Don't shrug your shoulders — keep them down and relaxed" }
+    ],
+    "warning": {
+      "zh": "若下背感到不適，請檢查是否過度前傾或重量過重",
+      "en": "If your lower back hurts, check if you're leaning too far forward or the weight is too heavy"
+    }
+  },
+  {
+    "id": "abdominal-bench",
+    "name": { "zh": "腹肌訓練椅", "en": "Abdominal Bench" },
+    "description": { "zh": "訓練腹部核心肌群，增強腰腹力量", "en": "Trains core abdominal muscles and strengthens the midsection" },
+    "thumbnail": "/images/abdominal-bench-thumb.jpg",
+    "muscles": [
+      { "zh": "腹部", "en": "Abs" },
+      { "zh": "核心", "en": "Core" }
+    ],
+    "sketchfabId": "PLACEHOLDER_ABDOMINAL_BENCH",
+    "gif": "/videos/abdominal-bench.gif",
+    "callout": "/images/abdominal-bench-callout.jpg",
+    "steps": [
+      { "zh": "調整椅背角度：初學者建議接近水平或稍微傾斜", "en": "Set the backrest angle: beginners should start near flat or slightly inclined" },
+      { "zh": "坐上後雙腳勾住腳墊，固定下半身", "en": "Sit and hook your feet under the foot pad to secure your lower body" },
+      { "zh": "雙手交叉放在胸前或輕扶耳側（不要拉頭）", "en": "Cross arms over chest or lightly place hands beside your head (don't pull your head)" },
+      { "zh": "緩慢向後躺下，再用腹部力量坐起", "en": "Slowly lean back, then use your abs to sit back up" },
+      { "zh": "不需要完全躺平，到腹部感到緊繃即可回來", "en": "You don't need to lie fully flat — return when you feel your abs fully contract" }
+    ],
+    "mistakes": [
+      { "zh": "不要用脖子或手臂拉力，專注腹部收縮", "en": "Don't pull with your neck or arms — focus on contracting your abs" },
+      { "zh": "不要動作過快，慢速才能有效訓練腹肌", "en": "Don't rush — slow movement is more effective for training abs" }
+    ],
+    "warning": {
+      "zh": "若有下背疼痛問題，請先諮詢醫生再使用此器材",
+      "en": "If you have lower back issues, consult a doctor before using this equipment"
+    }
+  },
+  {
+    "id": "leg-press",
+    "name": { "zh": "腿部推蹬機", "en": "Leg Press Machine" },
+    "description": { "zh": "訓練大腿與臀部肌肉，適合初學者安全練腿", "en": "Trains thighs and glutes — a safe beginner-friendly leg exercise" },
+    "thumbnail": "/images/leg-press-thumb.jpg",
+    "muscles": [
+      { "zh": "大腿", "en": "Thighs" },
+      { "zh": "臀部", "en": "Glutes" },
+      { "zh": "小腿", "en": "Calves" }
+    ],
+    "sketchfabId": "PLACEHOLDER_LEG_PRESS",
+    "gif": "/videos/leg-press.gif",
+    "callout": "/images/leg-press-callout.jpg",
+    "steps": [
+      { "zh": "調整座椅距離，使膝蓋彎曲約 90 度", "en": "Adjust the seat so your knees bend to about 90 degrees" },
+      { "zh": "雙腳平放在踏板中央，與肩同寬", "en": "Place feet flat on the platform, shoulder-width apart" },
+      { "zh": "選擇重量：初學者建議從 20–30 公斤開始", "en": "Choose weight: beginners start with 20–30 kg" },
+      { "zh": "推開踏板時扳開安全把手，雙手握住兩側扶把", "en": "Push the platform and release the safety handle, grip the side handles" },
+      { "zh": "緩慢彎曲膝蓋讓踏板靠近，再推出去，腳跟保持貼穩", "en": "Slowly bend knees to lower the platform, then push out — keep heels flat" }
+    ],
+    "mistakes": [
+      { "zh": "不要讓膝蓋向內夾，保持與腳趾同方向", "en": "Don't let knees cave inward — keep them aligned with your toes" },
+      { "zh": "不要在最高點鎖死膝蓋，保留微彎保護關節", "en": "Don't lock your knees at the top — keep a slight bend to protect your joints" }
+    ],
+    "warning": {
+      "zh": "使用完畢請記得重新鎖上安全把手，避免踏板滑落",
+      "en": "Always re-engage the safety lock after use to prevent the platform from dropping"
+    }
+  },
+  {
+    "id": "chest-press",
+    "name": { "zh": "胸部推舉機", "en": "Chest Press Machine" },
+    "description": { "zh": "訓練胸部、肩膀與手臂，初學者友善的推胸動作", "en": "Trains chest, shoulders and arms — beginner-friendly chest exercise" },
+    "thumbnail": "/images/chest-press-thumb.jpg",
+    "muscles": [
+      { "zh": "胸部", "en": "Chest" },
+      { "zh": "肩膀", "en": "Shoulders" },
+      { "zh": "手臂", "en": "Arms" }
+    ],
+    "sketchfabId": "PLACEHOLDER_CHEST_PRESS",
+    "gif": "/videos/chest-press.gif",
+    "callout": "/images/chest-press-callout.jpg",
+    "steps": [
+      { "zh": "調整座椅高度，使握把與胸口齊平", "en": "Adjust seat height so the handles are level with your chest" },
+      { "zh": "背部完全貼合椅背，雙腳平放地面", "en": "Press your back fully against the seat back, feet flat on the floor" },
+      { "zh": "選擇重量：初學者建議從 10–15 公斤開始", "en": "Choose weight: beginners start with 10–15 kg" },
+      { "zh": "雙手握住握把，向前推出直到手臂幾乎打直", "en": "Grip the handles and push forward until arms are nearly straight" },
+      { "zh": "緩慢彎曲手肘回到起始位置，感受胸部伸展", "en": "Slowly bend elbows back to the start position and feel your chest stretch" }
+    ],
+    "mistakes": [
+      { "zh": "不要讓背部離開椅背借力推更重", "en": "Don't arch your back off the seat to push more weight" },
+      { "zh": "不要完全鎖死手肘，保留微彎保護關節", "en": "Don't fully lock your elbows — keep a slight bend to protect your joints" }
+    ],
+    "warning": {
+      "zh": "若感到肩膀夾痛，請降低重量或重新調整座椅高度",
+      "en": "If you feel shoulder impingement pain, reduce the weight or re-adjust the seat height"
+    }
+  }
+]
