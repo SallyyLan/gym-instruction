@@ -1,9 +1,16 @@
-function App() {
+import { Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import MachinePage from './pages/MachinePage'
+import QRCodesPage from './pages/QRCodesPage'
+import NotFoundPage from './pages/NotFoundPage'
+
+export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-2xl font-bold">Gym Instruction App</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/machine/:id" element={<MachinePage />} />
+      <Route path="/admin/qr-codes" element={<QRCodesPage />} />
+      <Route path="*" element={<NotFoundPage />} />
+    </Routes>
   )
 }
-
-export default App
