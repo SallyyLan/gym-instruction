@@ -15,11 +15,11 @@ export default function MachineCard({ machine }: Props) {
       to={`/machine/${machine.id}`}
       className="block rounded-xl border border-gray-100 overflow-hidden hover:shadow-md transition-shadow"
     >
-      <div className="aspect-video bg-gray-50 overflow-hidden">
+      <div className="aspect-video bg-white flex items-center justify-center overflow-hidden">
         <img
           src={machine.thumbnail}
           alt={machine.name[lang]}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
           loading="lazy"
         />
       </div>
