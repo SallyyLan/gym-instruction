@@ -14,13 +14,13 @@ const renderAt = (id: string) =>
   )
 
 describe('MachinePage', () => {
-  it('renders the machine name for lat-pulldown in zh', () => {
-    renderAt('lat-pulldown')
-    expect(screen.getByText('滑輪下拉機')).toBeTruthy()
+  it('renders the machine name for pivot-leg-press in zh', () => {
+    renderAt('pivot-leg-press')
+    expect(screen.getByText('旋轉腿部推蹬機')).toBeTruthy()
   })
 
   it('renders a link back to home', () => {
-    renderAt('lat-pulldown')
+    renderAt('pivot-leg-press')
     expect(document.querySelector('a[href="/"]')).toBeTruthy()
   })
 
