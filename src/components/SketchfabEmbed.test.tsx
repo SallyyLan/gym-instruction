@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { render } from '@testing-library/react'
+import { render, fireEvent } from '@testing-library/react'
 import SketchfabEmbed from './SketchfabEmbed'
 
 describe('SketchfabEmbed', () => {
@@ -13,5 +13,12 @@ describe('SketchfabEmbed', () => {
   it('shows a loading skeleton before the iframe loads', () => {
     render(<SketchfabEmbed modelId="abc123" title="Test Machine" />)
     expect(document.querySelector('[data-testid="sketchfab-skeleton"]')).toBeTruthy()
+  })
+
+  it('hides the skeleton after the iframe loads', () => {
+    render(<SketchfabEmbed modelId="abc123" title="Test Machine" />)
+    const iframe = document.querySelector('iframe')!
+    fireEvent.load(iframe)
+    expect(document.querySelector('[data-testid="sketchfab-skeleton"]')).toBeNull()
   })
 })
